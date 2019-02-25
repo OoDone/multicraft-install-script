@@ -31,7 +31,9 @@ Example of what it should look like:
 To get php-mcrypt:
 
 sudo apt-get -y install gcc make autoconf libc-dev pkg-config
+
 sudo apt-get -y install php7.2-dev
+
 sudo apt-get -y install libmcrypt-dev
 
 Once the dependencies have been installed, you can install mcrypt with this command:
