@@ -100,8 +100,6 @@ sed -i 's/.*irectoryIndex.*/DirectoryIndex index.php index.html index.cgi index.
 service apache2 restart
 
 service mysql start
-mkdir -p /run/dbus
-dbus-daemon --system
 
 mysql -uroot -p${PW} -e "CREATE DATABASE ${PANELDB} /*\!40100 DEFAULT CHARACTER SET utf8 */;"
 mysql -uroot -p${PW} -e "CREATE USER ${PANELDB}@localhost IDENTIFIED BY '${PPASSWDDB}';"
