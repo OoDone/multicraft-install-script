@@ -76,6 +76,10 @@ sudo service apache2 restart
 
 open your browser of choice and go to 127.0.0.1/multicraft/install.php
 
+Video example:
+
+https://youtu.be/ohv8QXDd8Do?t=270
+
 After you finish multicraft will inform you to delete the install.php file:
 
 sudo rm -r /var/www/html/multicraft/install.php
