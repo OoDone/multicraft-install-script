@@ -6,7 +6,7 @@ Open Terminal:
 
 sudo su
 
-apt install curl
+apt install curl -y
 
 curl https://raw.githubusercontent.com/JySzE/multicraft/master/multicraftserver.sh > multicraftserver.sh&&bash ./multicraftserver.sh
 
