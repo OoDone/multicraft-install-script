@@ -24,7 +24,7 @@ press f6
 
 Search for "Directory /var/www"
 
-Change "AllowOverride deny" to "AllowOverride All"
+Change "AllowOverride None" to "AllowOverride All"
 
 Example of what it should look like:
 
