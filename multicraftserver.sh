@@ -66,8 +66,6 @@ echo;read -n 1 -s -r -p "Hit [ENTER] to continue or CTRL=c to cancel"
 
 apt-get update -y&&apt-get install -y vim software-properties-common apache2 phpmyadmin mysql-server php libapache2-mod-php php-mysql zip -y&&service mysql restart
 
-echo "ServerName ${DOMAIN}" >> /etc/apache2/apache2.conf&&service apache2 restart
-
 apt-get install -y dialog expect
 
 SECURE_MYSQL=$(expect -c "
