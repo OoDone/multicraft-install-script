@@ -64,11 +64,7 @@ echo "Daemon number: ${DAEMONNUM}"
 echo "Minecraft key: ${KEY}"
 echo;read -n 1 -s -r -p "Hit [ENTER] to continue or CTRL=c to cancel"
 
-sudo add-apt-repository ppa:webupd8team/java&&sudo apt update
-
 apt-get update -y&&apt-get install -y vim software-properties-common apache2 phpmyadmin mysql-server php libapache2-mod-php php-mysql zip -y&&service mysql restart
-
-apt-get install oracle-java8-installer -y
 
 echo "ServerName ${DOMAIN}" >> /etc/apache2/apache2.conf&&service apache2 restart
 
