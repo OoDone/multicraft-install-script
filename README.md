@@ -1,6 +1,8 @@
 # Multicraft Fast Install for Ubuntu forked from se7enack.
 
-From root or sudo on Ubuntu, run:
+Open Terminal:
+
+sudo su
 
 curl https://raw.githubusercontent.com/JySzE/multicraft/master/multicraftserver.sh > multicraftserver.sh&&bash ./multicraftserver.sh
 
