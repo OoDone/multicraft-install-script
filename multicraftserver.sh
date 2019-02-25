@@ -64,7 +64,7 @@ echo "Daemon number: ${DAEMONNUM}"
 echo "Minecraft key: ${KEY}"
 echo;read -n 1 -s -r -p "Hit [ENTER] to continue or CTRL=c to cancel"
  
-apt-get update -y&&apt-get install -y vim software-properties-common apache2 phpmyadmin mysql-server php libapache2-mod-php php-mcrypt php-mysql zip default-jre -y&&service mysql restart
+apt-get update -y&&apt-get install -y vim software-properties-common apache2 phpmyadmin mysql-server php libapache2-mod-php php-mysql zip default-jre -y&&service mysql restart
 
 echo "ServerName ${DOMAIN}" >> /etc/apache2/apache2.conf&&service apache2 restart
 
