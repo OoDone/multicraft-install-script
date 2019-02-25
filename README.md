@@ -12,7 +12,7 @@ apt-get install oracle-java8-installer -y
 
 apt install curl -y
 
-curl https://raw.githubusercontent.com/JySzE/multicraft/master/multicraftserver.sh > multicraftserver.sh&&bash ./multicraftserver.sh
+curl https://raw.githubusercontent.com/JySzE/multicraft-install-script/master/multicraftserver.sh > multicraftserver.sh&&bash ./multicraftserver.sh
 
 Set your FQDN to "localhost"
 
