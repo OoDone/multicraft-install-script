@@ -20,12 +20,13 @@ Change "AllowOverride deny" to "AllowOverride All"
 
 Example of what it should look like:
 
+```
 <Directory /var/www/>
         Options Indexes FollowSymLinks
         AllowOverride All
         Require all granted
 </Directory>
-
+```
 
 To get php-mcrypt:
 
@@ -51,6 +52,7 @@ extension=mcrypt.so
 
 Example of what it should look like:
 
+```
 ;;;;;;;;;;;;;;;;;;;;;;
 ; Dynamic Extensions ;
 ;;;;;;;;;;;;;;;;;;;;;;
@@ -62,5 +64,16 @@ extension=mcrypt.so
 ;
 ; For example:
 ;
+```
 
-Then you need to 
+Ctrl + X Enter to save
+
+sudo service apache2 restart
+
+open your browser of choice and go to 127.0.0.1/multicraft/install.php
+
+After you finish multicraft will inform you to delete the instal.php file:
+
+sudo rm -r /var/www/html/multicraft/install.php
+
+Done.
