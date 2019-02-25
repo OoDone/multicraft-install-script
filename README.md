@@ -29,6 +29,7 @@ Example of what it should look like:
         Require all granted
 </Directory>
 ```
+sudo service apache2 restart
 
 To get php-mcrypt:
 
