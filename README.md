@@ -1,5 +1,7 @@
 # Multicraft Fast Install for Ubuntu forked from se7enack.
 
+Compatible with Ubuntu 16.04, 18.04 and 18.10
+
 Open Terminal:
 
 sudo su
