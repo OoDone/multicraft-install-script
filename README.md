@@ -6,6 +6,8 @@ Open Terminal:
 
 sudo su
 
+apt install curl
+
 curl https://raw.githubusercontent.com/JySzE/multicraft/master/multicraftserver.sh > multicraftserver.sh&&bash ./multicraftserver.sh
 
 Set your FQDN to "localhost"
