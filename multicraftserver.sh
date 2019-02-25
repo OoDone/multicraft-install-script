@@ -18,7 +18,7 @@ gatherEmail () {
 	fi
 }
 gatherDomain () {
-	echo "Enter the FQDN of the server (i.e. thewebsite.com), followed by [ENTER]:";echo -n ">"
+	echo "Enter the FQDN of the server (i.e. localhost, thewebsite.com), followed by [ENTER]:";echo -n ">"
 	read DOMAIN
 	if [ -z "$DOMAIN" ]; then
 		gatherDomain
