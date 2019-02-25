@@ -20,11 +20,11 @@ Change "AllowOverride deny" to "AllowOverride All"
 
 Example of what it should look like:
 
-<Directory /var/www/>
-        Options Indexes FollowSymLinks
-        AllowOverride All
-        Require all granted
-</Directory>
+#<Directory /var/www/>
+#       Options Indexes FollowSymLinks
+#       AllowOverride All
+#       Require all granted
+#</Directory>
 
 
 To get php-mcrypt:
