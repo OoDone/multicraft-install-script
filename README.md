@@ -10,6 +10,8 @@ sudo add-apt-repository ppa:webupd8team/java&&sudo apt update
 
 apt-get install oracle-java8-installer -y
 
+(Dont ever run OpenJDK with minecraft clients or servers, it works but the GC is different and is generally frowned upon.)
+
 apt install curl -y
 
 curl https://raw.githubusercontent.com/JySzE/multicraft-install-script/master/multicraftserver.sh > multicraftserver.sh&&bash ./multicraftserver.sh
