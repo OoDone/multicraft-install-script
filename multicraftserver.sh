@@ -39,7 +39,7 @@ gatherKey () {
 	fi
 }
 gatherPw () {
-	echo -n "Enter a complex 8 character password, followed by [ENTER]:";echo -n ">"
+	echo -n "Enter a complex 8 character password, Atleast 1 Capital, One Number and one special character, followed by [ENTER]:";echo -n ">"
 
 	IFS= read -r PW
 	LEN=${#PW}
