@@ -18,7 +18,7 @@ curl https://raw.githubusercontent.com/JySzE/multicraft-install-script/master/mu
 
 Set your FQDN to "localhost"
 
-## After the script is over leave it open where it shows the passwords for the panel and daemon and open a new terminal
+### After the script is over leave it open where it shows the passwords for the panel and daemon and open a new terminal
 
 sudo nano /etc/apache2/apache2.conf
 
