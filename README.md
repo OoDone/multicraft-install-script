@@ -1,8 +1,8 @@
 # Multicraft Fast Install for Ubuntu forked from se7enack.
 
-Compatible with Ubuntu 16.04, 18.04 and 18.10
+## Compatible with Ubuntu 16.04, 18.04 and 18.10
 
-Open Terminal:
+#### Open Terminal:
 
 sudo su
 
@@ -10,7 +10,7 @@ sudo add-apt-repository ppa:webupd8team/java&&sudo apt update
 
 apt-get install oracle-java8-installer -y
 
-(Dont ever run OpenJDK with minecraft clients or servers, it works but the GC is different and is generally frowned upon.)
+#### (Dont ever run OpenJDK with minecraft clients or servers, it works but the GC is different and is generally frowned upon.)
 
 apt install curl -y
 
@@ -18,7 +18,7 @@ curl https://raw.githubusercontent.com/JySzE/multicraft-install-script/master/mu
 
 Set your FQDN to "localhost"
 
-After the script is over leave it open where it shows the passwords for the panel and daemon and open a new terminal
+## After the script is over leave it open where it shows the passwords for the panel and daemon and open a new terminal
 
 sudo nano /etc/apache2/apache2.conf
 
