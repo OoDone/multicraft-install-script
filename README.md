@@ -26,9 +26,10 @@ press f6
 
 Search for "Directory /var/www"
 
-Change "AllowOverride None" to "AllowOverride All"
+Change "Options Indexes FollowSymLinks" to "Options FollowSymLinks"
 
-Also change "Options Indexes FollowSymLinks" to "Options FollowSymLinks"
+Also change "AllowOverride None" to "AllowOverride All"
+
 
 Example of what it should look like:
 
