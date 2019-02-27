@@ -10,7 +10,7 @@ sudo add-apt-repository ppa:webupd8team/java&&sudo apt update
 
 apt-get install oracle-java8-installer -y
 
-#### (Dont ever run OpenJDK with minecraft clients or servers, it works but the GC is different and is generally frowned upon.)
+#### (Dont ever run OpenJDK with minecraft clients or servers, it works but the GC is different and is generally frowned upon and sopme plugins dont get along with it.)
 
 apt install curl -y
 
