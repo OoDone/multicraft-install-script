@@ -12,7 +12,7 @@
 
 ```apt-get update```
 
-```wget -O - http://debian.opennms.org/OPENNMS-GPG-KEY | sudo apt-key add - -y```
+```wget -O - http://debian.opennms.org/OPENNMS-GPG-KEY | sudo apt-key add -```
 
 ```apt-get update```
 
