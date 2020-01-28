@@ -6,8 +6,8 @@ After=network.target
 User=root
 Group=root
 Type=simple
-WorkingDirectory=/home/jacob/Desktop/
-ExecStart=/bin/bash /home/jacob/Desktop/multicraft.sh
+WorkingDirectory=/home/USER/Desktop/
+ExecStart=/bin/bash /home/USER/Desktop/multicraft.sh
 
 [Install]
 WantedBy=multi-user.target
