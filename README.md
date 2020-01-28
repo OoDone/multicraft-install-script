@@ -108,7 +108,8 @@ https://youtu.be/ohv8QXDd8Do?t=270
 
 ```sudo nano /home/minecraft/multicraft/multicraft.conf``` 
 
-## EXAMPLE:
+#### EXAMPLE:
+
 ```
 ##The connection password for deamon communication
 ## !! Change this when you set Multicraft to listen on a public IP !!
