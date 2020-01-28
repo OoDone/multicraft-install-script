@@ -6,11 +6,13 @@
 
 ```sudo su```
 
-```sudo deb http://debian.opennms.org/ stable main```
+```nano /etc/apt/sources.list```
 
-```sudo wget -O - http://debian.opennms.org/OPENNMS-GPG-KEY | sudo apt-key add - -y```
+```deb http://debian.opennms.org/ stable main```
 
-```sudo apt-get update```
+```wget -O - http://debian.opennms.org/OPENNMS-GPG-KEY | sudo apt-key add - -y```
+
+```apt-get update```
 
 ```apt-get install oracle-java8-installer -y```
 
