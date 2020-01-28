@@ -1,0 +1,14 @@
+[Unit]
+Description=multicraft
+After=network.target
+
+[Service]
+User=root
+Group=root
+Type=simple
+WorkingDirectory=/home/jacob/Desktop/
+ExecStart=/bin/bash /home/jacob/Desktop/multicraft.sh
+
+[Install]
+WantedBy=multi-user.target
+
