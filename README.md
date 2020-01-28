@@ -104,4 +104,25 @@ https://youtu.be/ohv8QXDd8Do?t=270
 
 ```sudo rm -r /var/www/html/multicraft/install.php```
 
+### After that it is smart to change this password:
+
+```sudo nano /home/minecraft/multicraft/multicraft.conf``` 
+
+### EXAMPLE:
+```
+##The connection password for deamon communication
+## !! Change this when you set Multicraft to listen on a public IP !!
+## The same password will have to be used on the panel side in the file: 
+## protected/config/config.php
+password= YOURPASSWORD
+```
+
+### Change it on the panel config file also:
+
+```sudo nano /var/www/html/multicraft/protected/config/config.php```
+
+```
+'daemon_password' => 'YOUR PASSWORD',
+```
+
 Done.
