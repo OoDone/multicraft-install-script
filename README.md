@@ -10,6 +10,8 @@
 
 ```deb http://debian.opennms.org/ stable main```
 
+```apt-get update```
+
 ```wget -O - http://debian.opennms.org/OPENNMS-GPG-KEY | sudo apt-key add - -y```
 
 ```apt-get update```
