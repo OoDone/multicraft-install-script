@@ -22,9 +22,10 @@
 
 ```apt install curl -y```
 
+### *WARNING* Set your FQDN to "localhost" during next step!
+
 ```curl https://raw.githubusercontent.com/JySzE/multicraft-install-script/master/multicraftserver.sh > multicraftserver.sh&&bash ./multicraftserver.sh```
 
-## Set your FQDN to "localhost"
 
 ### After the script is over leave it open where it shows the passwords for the panel and daemon and open a new terminal
 
