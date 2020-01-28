@@ -6,7 +6,7 @@
 
 sudo su
 
-sudo deb http://debian.opennms.org/ stable main
+`sudo deb http://debian.opennms.org/ stable main`
 
 sudo wget -O - http://debian.opennms.org/OPENNMS-GPG-KEY | sudo apt-key add - -y
 
