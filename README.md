@@ -6,7 +6,11 @@
 
 sudo su
 
-sudo add-apt-repository ppa:webupd8team/java&&sudo apt update
+sudo deb http://debian.opennms.org/ stable main
+
+sudo wget -O - http://debian.opennms.org/OPENNMS-GPG-KEY | sudo apt-key add - -y
+
+sudo apt-get update
 
 apt-get install oracle-java8-installer -y
 
