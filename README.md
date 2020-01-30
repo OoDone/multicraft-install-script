@@ -1,8 +1,11 @@
 # Multicraft Fast Install for Ubuntu forked from se7enack.
 
+## DO NOT USE SSH TO DO THIS SCRIPT IT WILL FAIL
+
 ## Compatible with Ubuntu 16.04, 18.04 and 19.10
 
 #### Open Terminal:
+
 
 ```sudo su```
 
