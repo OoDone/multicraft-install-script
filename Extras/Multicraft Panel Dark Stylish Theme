@@ -1,4 +1,4 @@
-@-moz-document regexp("(?=.*?\/multicraft).*") {
+@-moz-document regexp("(?=.*?\/multicraft\/index.php).*") {
 
 
 /* BE SURE TO PUT YOUR MULTICRAFT DOMAIN URL IN THE STYLISH "Applies to" AREA "URLs starting with" */
