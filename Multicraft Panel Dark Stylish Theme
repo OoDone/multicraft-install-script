@@ -1,0 +1,228 @@
+/* i really want this to be global */
+
+/* BE SURE TO PUT YOUR MULTICRAFT DOMAIN URL IN THE STYLISH "Applies to" AREA*/
+ body {
+    background-color: #202225 !important;
+}
+#sidebar {
+    position: absolute;
+    height: 100%;
+    background: #2f3136 !important;
+    border-color: #080808;
+}
+#page > .container {
+    background: #36393f !important;
+    position: relative;
+}
+#header {
+    background-image: linear-gradient(to bottom, #36393f 0%, #222222 100%);
+    background-repeat: repeat-x;
+}
+.server-list {
+    background: #2f3136 !important;
+    border: 2px solid #222222 !important;
+    padding: 10px;
+    margin: 5px 10px;
+    cursor: pointer;
+    display: block;
+    color: #eaeaea !important;
+}
+.server-list a {
+    color: #eaeaea;
+}
+#sidebar a {
+    color: #eaeaea !important;
+    display: block;
+    padding: 5px 15px;
+    border-bottom: 1px solid #eaeaea;
+    border-top: 1px solid #eaeaea;
+}
+a {
+    color: #eaeaea;
+    text-decoration: none;
+}
+.detail-view > thead > tr > th, .detail-view > tbody > tr > th, .detail-view > tfoot > tr > th, .detail-view > thead > tr > td, .detail-view > tbody > tr > td, .detail-view > tfoot > tr > td {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #eaeaea;
+}
+.detail-view > tbody > tr:nth-child(odd) > td, .detail-view > tbody > tr:nth-child(odd) > th {
+    background-color: #2f3136 !important;
+}
+body {
+    font-family:'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #eaeaea !important;
+}
+a {
+    color: #eaeaea;
+    text-decoration: none;
+}
+.breadcrumb {
+    padding: 8px 15px;
+    margin-bottom: 20px;
+    list-style: none;
+    background-color: #2f3136 !important;
+    border-radius: 4px;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #000000;
+    vertical-align: middle;
+    background-color: #c1c1c1 !important;
+    background-image: none;
+    border: 1px solid #eaeaea !important;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+td {
+    display: table-cell;
+    vertical-align: inherit;
+    color: #eaeaea !important;
+}
+#players-ajax div:nth-child(odd) {
+    background: #2f3136 !important;
+}
+.progress {
+    overflow: hidden;
+    height: 20px;
+    margin-bottom: 20px;
+    background-color: #c1c1c1 !important;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+#console, #log-ajax, #chat-ajax {
+    background: #202225 !important;
+    margin: 10px 0;
+    border-radius: 3px;
+    overflow: hidden;
+    color: #eaeaea !important;
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+    height: 400px;
+    overflow-y: scroll;
+}
+.items > tbody > tr:nth-child(odd) > td, .items > tbody > tr:nth-child(odd) > th {
+    background-color: #2f3136 !important;
+}
+#sidebar li ul {
+    margin: 0;
+    background: #2f3136 !important;
+}
+.pager li > a, .pager li > span {
+    display: inline-block;
+    padding: 5px 14px;
+    background-color: #2f3136 !important;
+    border: 1px solid #eaeaea !important;
+    border-radius: 15px;
+}
+.table-striped > tbody > tr:nth-child(odd) > td, .table-striped > tbody > tr:nth-child(odd) > th {
+    background-color: #36393f !important;
+}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #eaeaea !important;
+}
+.browse_rows_odd, .browse_rows_even {
+    background-color: #2f3136 !important;
+    font-family:'Lucida Grande', Verdana, Arial, Sans-Serif;
+    font-size: 80%;
+    font-weight: normal;
+    text-align: left;
+}
+.ftp-table a {
+    color: #eaeaea !important;
+}
+.detail-view .display-sub, .list-view .display-sub {
+    text-align: center;
+    background: #36393f !important;
+    font-size: 1.4em;
+    font-weight: 400;
+    color: #eaeaea !important;
+}
+.dial {
+    color: #eaeaea !important;
+}
+.h4 {
+    color: #eaeaea !important;
+}
+.h3 {
+    color: #eaeaea !important;
+}
+.h2 {
+    color: #eaeaea !important;
+}
+.h1 {
+    color: #eaeaea !important;
+}
+#sidebar a:hover {
+    text-decoration: none;
+    background: #222222 !important;
+    color: #eaeaea !important;
+    text-shadow: 0 0px 0 #eaeaea !important;
+}
+#sidebar a:hover:before {
+    content:"";
+    position: absolute;
+    left: 0px;
+    margin-top: -7px;
+    height: 33px;
+    border-left: 3px solid #eaeaea;
+}
+.portlet-title {
+    font-size: 1.2em;
+    color: #eaeaea !important;
+    margin: 10px 0 0;
+    font-weight: 300;
+    line-height: 2.5em;
+}
+.detail-view .summary, .list-view .summary {
+    color: #eaeaea !important;
+}
+.sorter {
+    color: #eaeaea !important;
+    margin: -2em 0 0 0;
+    text-align: right;
+}
+.breadcrumb > .active {
+    color: #eaeaea !important;
+}
+#mini {
+    margin: 100px auto 0;
+    width: 400px;
+    background: #2f3136 !important;
+    padding: 0 15px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.introbar a {
+    display: block;
+    font-size: 1.7em;
+    border-top: 1px solid #eaeaea !important;
+    margin: 15px -15px -15px;
+    line-height: 2.2em;
+    font-weight: 300;
+    color: #fbefef;
+    padding: 0 0 0 30px;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+}
+footer {
+    visibility: hidden;
+}
+footer:after {
+    content:'Multicraft Dark Theme By JySzE';
+    visibility: visible;
+}
