@@ -1,6 +1,6 @@
 /* i really want this to be global */
 
-/* BE SURE TO PUT YOUR MULTICRAFT DOMAIN URL IN THE STYLISH "Applies to" AREA*/
+/* BE SURE TO PUT YOUR MULTICRAFT DOMAIN URL IN THE STYLISH "Applies to" AREA "URLs starting with" */
  body {
     background-color: #202225 !important;
 }
