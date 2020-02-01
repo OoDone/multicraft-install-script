@@ -1,4 +1,5 @@
-/* i really want this to be global */
+@-moz-document regexp("(?=.*?\/multicraft).*") {
+
 
 /* BE SURE TO PUT YOUR MULTICRAFT DOMAIN URL IN THE STYLISH "Applies to" AREA "URLs starting with" */
  body {
@@ -225,4 +226,5 @@ footer {
 footer:after {
     content:'Multicraft Dark Theme By JySzE';
     visibility: visible;
+}
 }
